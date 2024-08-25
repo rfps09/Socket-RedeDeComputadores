@@ -1,0 +1,27 @@
+INSERT INTO type_of_rooms(id, type_of_room)
+VALUES  (1,"Quarto individual"),
+        (2,"Quarto duplo"),
+        (3,"Quarto triplo"),
+        (4,"Quarto de casal"),
+        (5,"Suíte");
+INSERT INTO rooms(nro_room, type_of_room_id, availability)
+VALUES  (101,1,TRUE),
+        (102,2,TRUE),
+        (103,3,TRUE),
+        (104,4,TRUE),
+        (105,5,TRUE),
+        (201,1,TRUE),
+        (202,2,TRUE),
+        (203,3,TRUE),
+        (204,4,TRUE),
+        (205,5,TRUE),
+        (301,1,TRUE),
+        (302,2,TRUE),
+        (303,3,TRUE),
+        (304,4,TRUE),
+        (305,5,TRUE),
+        (401,1,TRUE),
+        (402,2,TRUE),
+        (403,3,TRUE),
+        (404,4,TRUE),
+        (405,5,TRUE);
